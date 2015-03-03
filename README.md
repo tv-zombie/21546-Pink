@@ -1,7 +1,7 @@
 # Проект «Pink»
 
 * Студент: [tv zombie](https://htmlacademy.ru/profile/id21546).
-* Наставник: `https://vk.com/im?sel=152104271`.
+* Наставник: `[Ира Ожерельева]https://vk.com/ogereleva`.
 
 --
 
