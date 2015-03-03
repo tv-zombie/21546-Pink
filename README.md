@@ -1,7 +1,7 @@
 # Проект «Pink»
 
 * Студент: [tv zombie](https://htmlacademy.ru/profile/id21546).
-* Наставник: `Unknown`.
+* Наставник: `https://vk.com/im?sel=152104271`.
 
 --
 
