@@ -6,95 +6,115 @@
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 <body>
-	<header>
-	<div class="logo"><img src="http://lorempixel.com/80/30/cats" alt=""></div>
-	<nav>
-		<ul>
-			<li><a href="#"></a></li>
-		</ul>
-	</nav>
-	</header>
-	<div class="">
-		<div class=""><img src="http://lorempixel.com/320/395/cats" alt=""></div>
-		<div class="">
-			<a href="#">Скачать приложение</a>
-			<ul>
-				<li><a href=""><img src="http://lorempixel.com/60/50/cats" alt=""></a></li>
-				<li><a href=""><img src="http://lorempixel.com/60/50/cats" alt=""></a></li>
-				<li><a href=""><img src="http://lorempixel.com/60/50/cats" alt=""></a></li>
-			</ul>
-			<div class="">Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</div>
+	<header class="page-header">
+		<div class="page-header__logo-wrap">
+			<a class='page-header__logo-link' href="index.html"><img src="http://lorempixel.com/80/30/cats" alt="Pink"></a>
 		</div>
-	</div>
-	<div class="">
-		<div class="">
+		<nav class='page-header__main-nav'>
+			<ul class="main-nav__list">
+				<li><a href="#"></a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="download-app">
+		<div class="download-app__wrap">
+			<div class="download-app__image-wrap">
+				<img src="http://lorempixel.com/320/395/cats" alt="">
+			</div>
+			<div class="download-app__download-links">
+				<div class="download-app__header" href="#">Скачать приложение</div>
+				<ul class="download-app__platforms">
+					<li><a class="download-app__link-apple" href="#"></a></li>
+					<li><a class="download-app__link-android" href="#"></a></li>
+					<li><a class="download-app__link-windows" href="#"></a></li>
+				</ul>
+				<div class="download-app__text">Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo-app">
+		<div class="promo-app_wrap">
 			<div class="">Устали от серости мегаполиса?</div>
 			<div class="">Нам есть что предложить!</div>
 		</div>
-	</div>
-	<div class="">
-		<div class="">
-			<header>Поднимает настроение</header>
-				<p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
-		</div>
-		<div class="">
-			<header>Меняет мир вокруг</header>
-			<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилисть эффект</p>
-		</div>
-		<div class="">
-			<header>Заводит новых друзей</header>
-			<p>Ставьте лайки, комментируйте, делитесь фотографими с друзьями и заводите новых</p>
-		</div>
-		<div class=""><img src="http://lorempixel.com/160/280/cats" alt=""></div>
-	</div>
-	<div class="testimonails">
-		<div class="div">
-			<header>Николай Петров</header>
-			<p>«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще япознакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-			<div class="testimonials-indicators">
-				<span></span>
-				<span></span>
-				<span></span>
+	</section>
+	<section class="about-app">
+		<div class="about-app__wrap">
+			<div class="">
+				<header>Поднимает настроение</header>
+					<p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
+			</div>
+			<div class="">
+				<header>Меняет мир вокруг</header>
+				<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилисть эффект</p>
+			</div>
+			<div class="">
+				<header>Заводит новых друзей</header>
+				<p>Ставьте лайки, комментируйте, делитесь фотографими с друзьями и заводите новых</p>
+			</div>
+			<div class="about-app__image">
+				<img src="http://lorempixel.com/160/280/cats" alt="about-Pink">
 			</div>
 		</div>
-	</div>
-	<div class="tariffs">
-		<div class=""><img src="http://lorempixel.com/300/100/cats" alt=""></div>
-		<ul>
-			<li>
-				<span>Розовый Фильтр</span>
-				<span></span>
-			</li>
-			<li>
-				<span>Смайлики</span>
-				<span></span>
-			</li>
-			<li>
-				<span>Комментарии</span>
-				<span></span>
-			</li>
-		</ul>
-		<div class="tariffs-indicators">
+	</section>
+	<section class="testimonials">
+		<div class="testimonials-wrap">
+			<div class="testimonials__slider">
+				<div class="testimonials__header">Николай Петров</div>
+				<p class="testimonials__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще япознакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+				<div class="testimonials__indicators">
+					<span class="testimonials__indicators-active"></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tariffs">
+		<div class="tariffs__wrap">
+			<div class="tariffs__slider">
+				<div class="tariffs__image-wrap">
+					<img src="http://lorempixel.com/300/100/cats" alt="tariff-standart">
+				</div>
+					<ul class="tarrifs__list">
+						<li>
+							<span class="tariffs__list-item">Розовый Фильтр</span>
+							<span class="tariffs__list-icon"></span>
+						</li>
+						<li>
+							<span class="tariffs__list-item">Смайлики</span>
+							<span class="tariffs__list-icon"></span>
+						</li>
+						<li>
+							<span class="tariffs__list-item">Комментарии</span>
+							<span class="tariffs__list-icon"></span>
+						</li>
+					</ul>
+		<div class="tariffs__indicators">
+			<span class="indicators__active-item"></span>
 			<span></span>
 			<span></span>
-			<span></span>
 		</div>
-	</div>
-	<div class="contacts">
-		<div class="">Остались вопросы? Свяжитесь с нами!</div>
-		<div class="call">
-			<span>Звоните</span>
-			<span>8 (800) 1000 900</span>
+			</div>
 		</div>
-		<div class="write">
-			<span>Пишите</span>
-			<span>hello@pinkapp.ru</span>
+	</section>
+	<section class="contacts">
+		<div class="contacts__wrap">
+			<div class="contacts__header">Остались вопросы? Свяжитесь с нами!</div>
+			<div class="contacts__phone">
+				<span class="contacts__sub-header">Звоните</span>
+				<a href="tel:88001000900">8 (800) 1000 900</a>
+			</div>
+			<div class="contacts__email">
+				<span class="contacts__sub-header">Пишите</span>
+				<a href="mailto:hello@pinkapp.ru">hello@pinkapp.ru</a>
+			</div>
+			<div class="contacts__adress">
+				<span class="contacts__sub-header">Приезжайте в гости</span>
+				<span>Санкт-Петербург, Невский, д. 20</span>
+			</div>
 		</div>
-		<div class="adress">
-			<span>Приезжайте в гости</span>
-			<span>Санкт-Петербург, Невский, д. 20</span>
-		</div>
-	</div>
+	</section>
 	<div class="map"></div>
 
 <!-- <script src="js/script.js"></script> -->
