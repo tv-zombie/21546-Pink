@@ -3,29 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pink</title>
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="page-header">
-		<div class="container"></div>
+		<div class="container">
 			<div class="logo">
 				<div class="logo__wrap">
 					<a class='logo__link' href="index.html"><img src="http://lorempixel.com/80/30/cats" alt="Pink"></a>
 				</div>
 			</div>
+			<button class="main-nav-toggle">
+				<span class="toggle__icon-bar"></span>
+				<span class="toggle__icon-bar"></span>
+				<span class="toggle__icon-bar"></span>
+			</button>
 			<nav class='main-nav'>
 				<ul class="main-nav__list">
-					<li><a href="#"></a></li>
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Возможности</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Стоимость</a></li>
 				</ul>
 			</nav>
+		</div>
 	</header>
 	<section class="download-app">
 		<div class="container">
-			<div class="download-app__image-wrap">
-				<img src="http://lorempixel.com/320/395/cats" alt="">
-			</div>
+			<div class="download-app__header">Взгляните на жизнь иначе!</div>
 			<div class="download-app__download-links">
-				<div class="download-app__header" href="#">Скачать приложение</div>
+				<div class="download-app__button" href="#">Скачать приложение</div>
 				<ul class="download-app__platforms">
 					<li><a class="download-app__link-apple" href="#"></a></li>
 					<li><a class="download-app__link-android" href="#"></a></li>
@@ -65,8 +72,8 @@
 			<div class="testimonials__slider">
 				<div class="testimonials__header">Николай Петров</div>
 				<p class="testimonials__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще япознакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-				<div class="testimonials__indicators">
-					<a class="testimonials__indicators--active"></a>
+				<div class="indicators">
+					<a class="indicators--active"></a>
 					<a></a>
 					<a></a>
 				</div>
@@ -76,26 +83,33 @@
 	<section class="tariffs">
 		<div class="container">
 			<div class="tariffs__slider">
-				<div class="tariffs__image-wrap">
-					<img src="http://lorempixel.com/300/100/cats" alt="tariff-standart">
-				</div>
-					<ul class="tarrifs__list">
+				<ul class="tarrifs__list">
 						<li>
+							<div class="tarrifs-list__wrap">
+								<span class="tarrifs-list__new-label"></span>
+								<img class="tarrifs-list-img" src="http://lorempixel.com/300/100/cats" alt="pink-tariff-standart">
+							</div>
+						</li>
+						<li>
+						<div class="tarrifs-list__wrap">
 							<span class="tariffs__list-item">Розовый Фильтр</span>
-							<span class="tariffs__list-icon"></span>
+							<span class="tariffs__list-icon--ok"></span></div>
 						</li>
 						<li>
+						<div class="tarrifs-list__wrap">
 							<span class="tariffs__list-item">Смайлики</span>
-							<span class="tariffs__list-icon"></span>
+							<span class="tariffs__list-icon--ok"></span></div>
 						</li>
 						<li>
+						<div class="tarrifs-list__wrap">
 							<span class="tariffs__list-item">Комментарии</span>
-							<span class="tariffs__list-icon"></span>
+							<span class="tariffs__list-icon--none"></span></div>
 						</li>
-					</ul>
-		<div class="tariffs__indicators">
-			<a class="indicators__active--item"></a>
+
+				</ul>
+		<div class="indicators">
 			<a></a>
+			<a class="indicators--active"></a>
 			<a></a>
 		</div>
 			</div>
@@ -104,18 +118,18 @@
 	<section class="contacts">
 		<div class="container">
 			<div class="contacts__header">Остались вопросы? Свяжитесь с нами!</div>
-			<div class="contacts__phone">
-				<span class="contacts__sub-header">Звоните</span>
-				<a href="tel:88001000900">8 (800) 1000 900</a>
-			</div>
-			<div class="contacts__email">
-				<span class="contacts__sub-header">Пишите</span>
-				<a href="mailto:hello@pinkapp.ru">hello@pinkapp.ru</a>
-			</div>
-			<div class="contacts__adress">
-				<span class="contacts__sub-header">Приезжайте в гости</span>
-				<span>Санкт-Петербург, Невский, д. 20</span>
-			</div>
+				<div class="contacts-item-wrap">
+					<div class="contacts__sub-header">Звоните</div>
+					<a class="contacts__item" href="tel:88001000900">8 (800) 1000 900</a>
+				</div>
+				<div class="contacts-item-wrap">
+					<div class="contacts__sub-header">Пишите</div>
+					<a class="contacts__item" href="mailto:hello@pinkapp.ru">hello@pinkapp.ru</a>
+				</div>
+				<div class="contacts-item-wrap">
+				<div class="contacts__sub-header">Приезжайте в гости</div>
+					<div class="contacts__item">Санкт-Петербург, Невский, д. 20</div>
+				</div>
 		</div>
 	</section>
 	<div class="map"></div>

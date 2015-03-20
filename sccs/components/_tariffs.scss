@@ -1,0 +1,90 @@
+.tarrifs {
+	background-color: $grey;
+
+}
+.tariffs__slider {
+	padding: 92px 0 100px;
+	position: relative;
+	background-color: $grey;
+}
+.tarrifs__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #fff;
+	li {
+		position: relative;
+		border-bottom: 2px solid $grey;
+		&:first-child {
+			background-color: $navy;
+		}
+	}
+}
+.tariffs__list-item {
+	text-transform: uppercase;
+	font: $main-font;
+	color: $navy;
+	display: block;
+	padding: 20px;
+}
+.tariffs__list-icon--ok {
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	height: 28px;
+	width: 32px;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+.tariffs__list-icon--none {
+	@extend .tariffs__list-icon--ok;
+	width: 28px;
+}
+.tarrifs-list__wrap {
+	position: relative;
+	width: 95%;
+	border-left: 1px solid $grey;
+	border-right: 1px solid $grey;
+	margin: 0 auto;
+}
+.tarrifs-list-img {
+	display: block;
+	margin: 0 auto;
+}
+.tarrifs-list__new-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 73px;
+	height: 73px;
+}
+.indicators {
+	position: absolute;
+	width: 65px;
+	height: 15px;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -32px;
+	text-align: center;
+	font-size: 0;
+	a {
+		display: inline-block;
+		width: 6px;
+		height: 6px;
+		background-color: $dark-grey;
+		border-radius: 50%;
+		vertical-align: middle;
+		margin-right: 15px;
+		cursor: pointer;
+		&:last-child {
+			margin-right: 0;
+		};
+	}
+	.indicators--active {
+		border: 3px solid $navy;
+		width: 12px;
+		height: 12px;
+		background-color: #fff;
+	}
+}
