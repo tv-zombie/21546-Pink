@@ -1,0 +1,75 @@
+.download-app {
+	background-color: $navy;
+	color: #fff;
+	padding: 25px 0 30px;
+	text-align: center;
+		&__download-link {
+			width: 250px;
+			margin: 0 auto;
+		}
+		&__button {
+		width: 210px;
+		color: #fff;
+		margin: 0 auto 20px;
+		padding: 15px 30px;
+		border: 2px solid #fff;
+		border-radius: 40px;
+		cursor: pointer;
+		display: block;
+		}
+		&__platforms {
+			list-style-type: none;
+			text-align: center;
+			margin-bottom: 20px;
+				li {
+					display: inline-block;
+					width: 52px;
+					height: 61px;
+					border: 1px dashed white;
+				}
+		}
+}
+.promo-app {
+	background-color: #fff;
+	padding-top: 35px;
+	&__header {
+		font: $light-title;
+		text-align: center;
+		span {
+			display: block;
+			padding-bottom: 35px;
+		}
+	}
+}
+.about-app {
+	background-color: $grey;
+	padding: 50px 0 0;
+	text-align: center;
+	&__image {
+		padding-top: 40px;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.sub-header {
+		font: $weight-title;
+		padding: 15px;
+		text-align: center;
+	}
+}
+.testimonials {
+	background-color: #fff;
+	padding: 50px 0 100px;
+	&__slider {
+		position: relative;
+		&__header {
+			font: $weight-title;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+	}
+	&__text {
+		text-align: center;
+	}
+}

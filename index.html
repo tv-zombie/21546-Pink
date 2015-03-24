@@ -2,41 +2,42 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<title>Pink</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="page-header">
 		<div class="container">
-			<div class="logo">
-				<div class="logo__wrap">
+			<div class="menu">
+				<div class="logo">
 					<a class='logo__link' href="index.html"><img src="http://lorempixel.com/80/30/cats" alt="Pink"></a>
 				</div>
+				<button class="main-nav-toggle">
+					<span class="toggle__icon-bar"></span>
+					<span class="toggle__icon-bar"></span>
+					<span class="toggle__icon-bar"></span>
+				</button>
+				<nav class='main-nav'>
+					<ul class="main-nav__list">
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Возможности</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Стоимость</a></li>
+					</ul>
+				</nav>
 			</div>
-			<button class="main-nav-toggle">
-				<span class="toggle__icon-bar"></span>
-				<span class="toggle__icon-bar"></span>
-				<span class="toggle__icon-bar"></span>
-			</button>
-			<nav class='main-nav'>
-				<ul class="main-nav__list">
-					<li><a href="#">Информация</a></li>
-					<li><a href="#">Возможности</a></li>
-					<li><a href="#">Отзывы</a></li>
-					<li><a href="#">Стоимость</a></li>
-				</ul>
-			</nav>
+			<div class="page-header__text">Взгляните на жизнь иначе!</div>
 		</div>
 	</header>
 	<section class="download-app">
 		<div class="container">
-			<div class="download-app__header">Взгляните на жизнь иначе!</div>
-			<div class="download-app__download-links">
-				<div class="download-app__button" href="#">Скачать приложение</div>
+			<div class="download-app__download-link">
+				<a class="download-app__button" href="#">Скачать приложение</a>
 				<ul class="download-app__platforms">
-					<li><a class="download-app__link-apple" href="#"></a></li>
-					<li><a class="download-app__link-android" href="#"></a></li>
-					<li><a class="download-app__link-windows" href="#"></a></li>
+					<li class=""><img src="" alt=""></li>
+					<li class=""><img src="" alt=""></li>
+					<li class=""><img src="" alt=""></li>
 				</ul>
 				<div class="download-app__text">Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</div>
 			</div>
@@ -44,8 +45,10 @@
 	</section>
 	<section class="promo-app">
 		<div class="container">
-			<h1>Устали от серости мегаполиса?</h1>
-			<div class="">Нам есть что предложить!</div>
+			<h1 class="promo-app__header">
+				<span>Устали от серости мегаполиса?</span>
+				<span>Нам есть что предложить!</span>
+			</h1>
 		</div>
 	</section>
 	<section class="about-app">

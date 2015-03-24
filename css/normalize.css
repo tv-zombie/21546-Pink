@@ -433,6 +433,7 @@ th {
 body {
   font-size: 16px;
   -webkit-font-smoothing: antiliased;
+  font: 400 14px/1.6 'Open Sans', sans-serif;
 }
 a {
   text-decoration: none;
