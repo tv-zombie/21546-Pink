@@ -4,18 +4,18 @@
 	padding: 25px 0 30px;
 	text-align: center;
 		&__download-link {
-			width: 250px;
+			width: 280px;
 			margin: 0 auto;
 		}
 		&__button {
-		width: 210px;
-		color: #fff;
-		margin: 0 auto 20px;
-		padding: 15px 30px;
-		border: 2px solid #fff;
-		border-radius: 40px;
-		cursor: pointer;
-		display: block;
+			width: 280px;
+			color: #fff;
+			margin: 0 auto 20px;
+			padding: 15px 30px;
+			border: 2px solid #fff;
+			border-radius: 40px;
+			cursor: pointer;
+			display: block;
 		}
 		&__platforms {
 			list-style-type: none;
@@ -23,9 +23,14 @@
 			margin-bottom: 20px;
 				li {
 					display: inline-block;
+					vertical-align: baseline;
 					width: 52px;
 					height: 61px;
-					border: 1px dashed white;
+
+					margin-right: 30px;
+					&:last-child {
+						margin-right: 0;
+					}
 				}
 		}
 }
@@ -50,6 +55,7 @@
 		img {
 			display: block;
 			margin: 0 auto;
+			height: 280px;
 		}
 	}
 	.sub-header {
@@ -63,7 +69,7 @@
 	padding: 50px 0 100px;
 	&__slider {
 		position: relative;
-		&__header {
+		.testimonials__header {
 			font: $weight-title;
 			text-align: center;
 			padding-bottom: 20px;
