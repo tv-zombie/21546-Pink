@@ -8,21 +8,23 @@
 </head>
 <body>
 	<header class="page-header">
-		<div class="container">
-			<div class="menu">
-				<div class="logo">
-					<a class='logo__link' href="index.html"><img src="img/Pink-logo-1.png" alt="Pink"></a>
+		<div class="menu">
+			<div class="container">
+					<div class="logo">
+						<a class='logo__link' href="index.html"><img src="img/Pink-logo-1.png" alt="Pink"></a>
+					</div>
+					<button class="main-nav-toggle"></button>
+					<nav class='main-nav'>
+						<ul class="main-nav__list">
+							<li><a href="#">Информация</a></li>
+							<li><a href="#">Возможности</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Стоимость</a></li>
+						</ul>
+					</nav>
 				</div>
-				<button class="main-nav-toggle"></button>
-				<nav class='main-nav'>
-					<ul class="main-nav__list">
-						<li><a href="#">Информация</a></li>
-						<li><a href="#">Возможности</a></li>
-						<li><a href="#">Отзывы</a></li>
-						<li><a href="#">Стоимость</a></li>
-					</ul>
-				</nav>
 			</div>
+		<div class="container">
 			<div class="page-header__text">Взгляните на жизнь иначе!</div>
 		</div>
 	</header>
@@ -50,14 +52,17 @@
 	<section class="about-app">
 		<div class="container">
 			<div class="about-app__item">
+				<div class="about-app__item-img"><img src="img/iphone-screen-3-1@1x.png" height="481" width="268" alt="about-Pink"></div>
 				<div class="sub-header">Поднимает настроение</div>
 				<p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
 			</div>
 			<div class="about-app__item">
+				<div class="about-app__item-img"><img src="img/iphone-screen-3-2@1x.png" height="481" width="268" alt="about-Pink"></div>
 				<div class="sub-header">Меняет мир вокруг</div>
 				<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилисть эффект</p>
 			</div>
 			<div class="about-app__item">
+				<div class="about-app__item-img"><img src="img/iphone-screen-3-3@1x.png" height="481" width="268" alt="about-Pink"></div>
 				<div class="sub-header">Заводит новых друзей</div>
 				<p>Ставьте лайки, комментируйте, делитесь фотографими с друзьями и заводите новых</p>
 			</div>
@@ -66,16 +71,27 @@
 			</div>
 		</div>
 	</section>
+	<section class="effect">
+		<div class="container">
+			<div class="effect__image"><img src="img/timer-2.svg" alt=""></div>
+			<div class="effect__wrap">
+				<div class="effect__header">Эффект на 24 часа!</div>
+				<div class="effect__text">Британские ученые провели исследованияи доказали, что положительный эффектот использования приложения длится целые сутки!<a class="effect__link" href="#">Узнать больше об исследовании</a></div>
+			</div>
+		</div>
+	</section>
 	<section class="testimonials">
 		<div class="container">
 			<div class="testimonials__slider">
-				<div class="testimonials__header">Николай Петров</div>
+				<div class="testimonials__header">Николай Петров<div class="testimonials__sub-header">25 лет, водитель трамвая</div></div>
 				<p class="testimonials__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще япознакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
 				<div class="indicators">
 					<a class="indicators--active"></a>
 					<a></a>
 					<a></a>
 				</div>
+			<div class="arrow__left"></div>
+			<div class="arrow__right"></div>
 			</div>
 		</div>
 	</section>
@@ -115,6 +131,50 @@
 			<a></a>
 		</div>
 			</div>
+			<table class="tarrifs-table">
+				<tbody>
+					<tr>
+						<td class="empty">
+						</td>
+						<td>
+							<span class="tarrifs-table-sticker">
+								<span class="tarrifs-table-name">База</span>
+								<span class="tarrifs-table-price">1,99 USD</span>
+						</span>
+						</td>
+						<td><span class="tarrifs-table-sticker">
+								<span class="tarrifs-table__new-label"><span>Хит</span></span>
+								<span class="tarrifs-table-name">Стандарт</span>
+								<span class="tarrifs-table-price">3,99 USD</span>
+						</span></td>
+						<td><span class="tarrifs-table-sticker">
+								<span class="tarrifs-table-name">Анлим</span>
+								<span class="tarrifs-table-price">9,99 USD</span>
+						</span></td>
+					</tr>
+					<tr>
+						<td class="tarrifs__options">Розовый фильтр
+						</td>
+						<td><span class="tariffs__table-icon--ok"></span></td>
+						<td><span class="tariffs__table-icon--ok"></span></td>
+						<td><span class="tariffs__table-icon--ok"></span></td>
+					</tr>
+					<tr>
+						<td class="tarrifs__options">Смайлики
+						</td>
+						<td><span class="tariffs__table-icon--none"></span></td>
+						<td><span class="tariffs__table-icon--none"></span></td>
+						<td><span class="tariffs__table-icon--ok"></span></td>
+					</tr>
+					<tr>
+						<td class="tarrifs__options">Комментарии
+						</td class="tarrifs__options">
+						<td><span class="tariffs__table-icon--none"></span></td>
+						<td><span class="tariffs__table-icon--none"></span></td>
+						<td><span class="tariffs__table-icon--none"></span></td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</section>
 	<section class="contacts">
@@ -135,7 +195,21 @@
 		</div>
 	</section>
 	<div class="map"></div>
-
+<footer class="page-footer">
+	<div class="container">
+		<div class="logo">
+			<a class='logo__link' href="index.html"><img src="img/Pink-logo-footer-3@1x.png" height="40" width="145" alt="Pink"></a>
+		</div>
+		<ul class="socials">
+			<li class="socials__item"><a class="tw" href="#"></a></li>
+			<li class="socials__item"><a class="fb" href="#"></a></li>
+			<li class="socials__item"><a class="yt" href="#"></a></li>
+		</ul>
+		<div class="authors">
+			Website by <a class="authors__designer" href="#"></a> for <a class="authors__academy" href="#"></a>
+		</div>
+	</div>
+</footer>
 <!-- <script src="js/script.js"></script> -->
 
 </body>

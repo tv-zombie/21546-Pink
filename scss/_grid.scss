@@ -3,3 +3,173 @@
 	display: table;
 	clear: both;
 }
+@media all and (max-width: 700px) {
+	.effect {
+		display: none;
+	}
+	.about-app__item-img {
+		display: none;
+	}
+	.tarrifs-table {
+		display: none;
+	}
+	.page-footer {
+		display: none;
+	}
+}
+
+@media all and (min-width: 700px) {
+	.container {
+		width: 620px;
+		margin: 0 auto;
+	}
+	.page-header {
+		min-height: 730px;
+		background: url(../img/iphone-hand-2@1x.png) no-repeat center bottom ,
+					url(../img/background-2@1x.jpg) no-repeat center center $navy;
+	}
+	.download-app {
+		margin-top: -270px;
+		background: none;
+	}
+	.download-app__download-link {
+		float: left;
+	}
+	.promo-app__header span {
+		padding: 0;
+		& span:nth-child(2) {
+			width: 340px;
+		}
+	}
+	.about-app__item {
+		margin-left: 310px;
+		width: 320px;
+		text-align: left;
+		.sub-header {
+			text-align: left;
+		}
+	}
+	.about-app__item-img {
+		display: none;
+	}
+	.about-app__image {
+		float: left;
+		margin-top: -280px;
+	}
+	.testimonials {
+		padding: 40px 0 160px;
+		.indicators {
+			bottom: -125px;
+		}
+	}
+	.testimonials__header {
+		top: auto;
+		bottom: -80px;
+	}
+	.testimonials__sub-header {
+		padding-top: 10px;
+		display: block;
+	}
+	.testimonials .indicatios {
+		bottom: -130px;
+	}
+	.tariffs__slider {
+		display: none;
+	}
+	.tariffs-table {
+		display: table;
+	}
+	.contacts-item-wrap {
+		float: left;
+		width: 50%;
+		&:last-child {
+			width: 100%;
+		}
+	}
+}
+@media all and (min-width: 1200px) {
+	.container {
+		width: 940px;
+		margin: 0 auto;
+	}
+	.page-header {
+		min-height: 850px;
+		background: url(../img/iphone-hand-3@1x.png) no-repeat center bottom ,
+					url(../img/background-1@2x.jpg) no-repeat center center $navy;
+		.main-nav-toggle {
+			display: none;
+		}
+		.menu .main-nav {
+			display: block;
+			&__list li{
+				display: inline-block;
+				margin-left: 60px;
+			}
+		}
+	}
+	.about-app {
+		padding-bottom: 50px;
+	}
+	.about-app__item {
+		text-align: center;
+		width: 280px;
+		margin: 0 30px 0 0;
+		float: left;
+			&:last-child {
+				margin-right: 0;
+			}
+			.sub-header {
+				text-align: center;
+			}
+	}
+	.about-app__image {
+		display: none;
+	}
+		.about-app__item-img {
+			display: block;
+		}
+	.about-app__item-img img {
+		width: 200px;
+		height: auto;
+		margin: 0 0 20px 0;
+	}
+	.effect {
+		background-color: $grey;
+	}
+	.effect__wrap, .effect__header {
+		width: 590px;
+	}
+	.testimonials {
+		padding: 150px 0 140px;
+	}
+	.testimonials .arrow__left,
+	.testimonials .arrow__right {
+		display: block;
+	}
+	.testimonials__slider {
+		width: 700px;
+		&:before {
+			display: block;
+		}
+	}
+	.testimonials .indicators {
+		display: none;
+	}
+	.contacts-item-wrap {
+		width: 33%;
+		&:last-child {
+			width: 33%;
+			float: left;
+		}
+		&:nth-child(3) {
+			float: right;
+		}
+	}
+	.contacts__sub-header {
+	padding-bottom: 20px;
+}
+}
+@media all and (min-width: 1200px) {
+	background: url(../img/iphone-hand-3@2x.png) no-repeat center bottom ,
+				url(../img/background-2@2x.jpg) no-repeat center center $navy;
+}
