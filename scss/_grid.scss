@@ -34,11 +34,22 @@
 	}
 	.download-app__download-link {
 		float: left;
+		position: relative;
+		top: -90px;
 	}
+.page-header__text {
+	font-size: 40px;
+	width: 245px;
+	padding: 120px 0 0 30px;
+	line-height: 1.3;
+	float: left;
+}
 	.promo-app__header span {
 		padding: 0;
+					font-size: 40px;
 		& span:nth-child(2) {
 			width: 340px;
+
 		}
 	}
 	.about-app__item {
@@ -79,6 +90,10 @@
 	.tariffs-table {
 		display: table;
 	}
+	.contacts__header {
+		font-size: 40px;
+		width: 520px;
+	}
 	.contacts-item-wrap {
 		float: left;
 		width: 50%;
@@ -99,6 +114,14 @@
 		.main-nav-toggle {
 			display: none;
 		}
+		.page-header__text {
+			width: 300px;
+			font-size: 50px;
+			padding-left: 0;
+		}
+	.download-app__download-link {
+		top: -140px;
+	}
 		.menu .main-nav {
 			display: block;
 			&__list li{
@@ -106,6 +129,9 @@
 				margin-left: 60px;
 			}
 		}
+	}
+	.promo-app__header span {
+		font-size: 50px;
 	}
 	.about-app {
 		padding-bottom: 50px;
@@ -155,6 +181,10 @@
 	.testimonials .indicators {
 		display: none;
 	}
+	.contacts__header {
+		font-size: 50px;
+		width: 520px;
+	}
 	.contacts-item-wrap {
 		width: 33%;
 		&:last-child {
@@ -169,7 +199,13 @@
 	padding-bottom: 20px;
 }
 }
-@media all and (min-width: 1200px) {
-	background: url(../img/iphone-hand-3@2x.png) no-repeat center bottom ,
-				url(../img/background-2@2x.jpg) no-repeat center center $navy;
-}
+
+
+
+
+
+
+
+
+
+

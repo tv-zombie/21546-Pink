@@ -40,12 +40,10 @@
 		position: absolute;
 		right: 15px;
 		top: 20px;
-		background: url('../../img/yes.svg') no-repeat center center #fff;
 	}
 	.tariffs__list-icon--none {
 		@extend .tariffs__list-icon--ok;
-		width: 28px;
-		background-image: url('../../img/no.svg');
+		width: 30px;
 	}
 	.tarrifs-list-sticker {
 		display: block;
@@ -84,35 +82,6 @@
 	}
 }
 
-.indicators {
-	position: absolute;
-	width: 65px;
-	height: 15px;
-	bottom: -60px;
-	left: 50%;
-	margin-left: -32px;
-	text-align: center;
-	font-size: 0;
-	cursor: pointer;
-	a {
-		display: inline-block;
-		width: 6px;
-		height: 6px;
-		background-color: $dark-grey;
-		border-radius: 50%;
-		vertical-align: middle;
-		margin-right: 15px;
-		&:last-child {
-			margin-right: 0;
-		};
-	}
-	.indicators--active {
-		border: 3px solid $navy;
-		width: 12px;
-		height: 12px;
-		background-color: #fff;
-	}
-}
 
 .tarrifs-table {
 	border-collapse: collapse;
@@ -187,15 +156,18 @@
 		vertical-align: middle;
 		height: 28px;
 		width: 32px;
-		background: url('../../img/yes.svg') no-repeat center center #fff;
 	}
 	.tariffs__table-icon--none {
 		@extend .tariffs__table-icon--ok;
 		width: 28px;
-		background-image: url('../../img/no.svg');
 	}
 
-
+.table-icon--ok {
+	fill: #63d169;
+}
+.table-icon--no {
+	fill: #f25b26;
+}
 
 
 

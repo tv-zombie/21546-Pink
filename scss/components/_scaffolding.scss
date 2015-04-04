@@ -16,6 +16,13 @@
 			border-radius: 40px;
 			cursor: pointer;
 			display: block;
+				&:hover {
+					color: $pink;
+					background-color: #fff;
+				}
+				&:active {
+					opacity: 0.7;
+				}
 		}
 		&__platforms {
 			list-style-type: none;
@@ -87,7 +94,6 @@
 	&__text a {
 			display: block;
 			padding-top: 15px;
-			color: $pink;
 			text-decoration: underline;
 		}
 }
@@ -113,14 +119,13 @@
 			display: none;
 	}
 	}
-	.testimonials__header {
-		font: $weight-title;
-		position: absolute;
-		top: -50px;
-		left: 50%;
-		width: 280px;
-		margin-left: -140px;
+.slider__info {
+	padding-bottom: 30px;
+	font: $weight-title;
+	div {
+		font: $main-font;
 	}
+}
 	.testimonials__sub-header {
 		display: none;
 		font: $main-font;
