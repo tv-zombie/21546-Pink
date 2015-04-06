@@ -118,7 +118,7 @@
         }
     }
     .page-footer {
-        line-height: 2.5;
+        line-height: 3.5;
     }
 }
 
@@ -148,9 +148,9 @@
             margin-bottom: 40px;
             font-size: 18px;
         }
-        .menu .main-nav {
+        .menu .main-nav .main-nav__list {
             display: block;
-            &__list li {
+             li {
                 display: inline-block;
                 margin-left: 65px;
             }
@@ -259,6 +259,9 @@
     }
     .contacts__sub-header {
         padding-bottom: 20px;
+    }
+    .page-footer {
+        line-height: 2.5;
     }
     .page-footer .logo__link--footer {
         background-image: url(../img/Pink-logo-footer-3@1x.png);
