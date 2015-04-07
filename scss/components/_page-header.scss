@@ -1,6 +1,6 @@
 .page-header {
     min-height: 460px;
-    background: url('../img/iphone-hand-1.png') no-repeat center bottom, url(../../img/background-1@1x.jpg) no-repeat center center $navy;
+    background: url('../img/iphone-hand-1.png') no-repeat center bottom, url(../img/background-1@1x.jpg) no-repeat center center $navy;
     .container {
         line-height: 3;
     }
@@ -97,7 +97,7 @@
         display: block;
         width: 145px;
         height: 40px;
-        background: url("../../img/Pink-logo-1.png") no-repeat center center;
+        background: url("../img/Pink-logo-1.png") no-repeat center center;
         &:hover {
             opacity: 0.5;
         }

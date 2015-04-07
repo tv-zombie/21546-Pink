@@ -1,7 +1,7 @@
 @import url(normalize.css);
 .page-header {
   min-height: 460px;
-  background: url("../img/iphone-hand-1.png") no-repeat center bottom, url(../../img/background-1@1x.jpg) no-repeat center center #283645;
+  background: url("../img/iphone-hand-1.png") no-repeat center bottom, url(../img/background-1@1x.jpg) no-repeat center center #283645;
 }
 .page-header .container {
   line-height: 3;
@@ -99,7 +99,7 @@
   display: block;
   width: 145px;
   height: 40px;
-  background: url("../../img/Pink-logo-1.png") no-repeat center center;
+  background: url("../img/Pink-logo-1.png") no-repeat center center;
 }
 .logo__link:hover {
   opacity: 0.5;
@@ -169,7 +169,7 @@
   display: block;
   width: 145px;
   height: 40px;
-  background: url(../../img/Pink-logo-footer-2@1x.png) no-repeat center center;
+  background: url(../img/Pink-logo-footer-2@1x.png) no-repeat center center;
 }
 .page-footer .logo__link--footer:hover {
   opacity: 0.5;
