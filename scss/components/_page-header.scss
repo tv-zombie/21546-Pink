@@ -23,6 +23,7 @@
             height: 26px;
             vertical-align: middle;
             position: relative;
+            z-index: 101;
             top: 5px;
             .toggle__icon {
                 fill: #fff;
@@ -64,6 +65,17 @@
             left: 0;
             top: 92px;
             z-index: 100;
+            &:before {
+                  content: '';
+                  position: absolute;
+                  z-index: 5;
+                  height: 109px;
+                  width: 100%;
+                  left: 0;
+                  top: -109px;
+                  background: #283645;
+                  border-bottom: 1px solid #000101;
+            }
             a {
                 display: block;
                 font-size: 18px;
@@ -93,6 +105,8 @@
 .logo {
     float: left;
     width: 200px;
+    position: relative;
+    z-index: 101;
     &__link {
         display: block;
         width: 145px;
